@@ -1,3 +1,3 @@
 [submodule "opticks"]
 	path = opticks
-	url = https://bitbucket.org/simoncblyth/opticks.git
+	url = https://github.com/psilib/opticks.git
