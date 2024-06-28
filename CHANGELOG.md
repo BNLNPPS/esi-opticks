@@ -1,3 +1,17 @@
+# [1.0.0-betatest.2](https://github.com/BNLNPPS/esi-shell/compare/1.0.0-betatest.1...1.0.0-betatest.2) (2024-06-28)
+
+
+### Bug Fixes
+
+* do not install npm ([1202d4d](https://github.com/BNLNPPS/esi-shell/commit/1202d4d44f39e7a37f1685e63f9eeda34e1b4b52))
+* try 1 ([c4d6bd3](https://github.com/BNLNPPS/esi-shell/commit/c4d6bd3333fee7025c55b77c34ea5d9254d9bfd6))
+
+
+
+
+
+test version 1.0.0-betatest.2
+
 # 1.0.0-betatest.1 (2024-06-28)
 
 
