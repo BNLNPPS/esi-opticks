@@ -6,7 +6,7 @@ branches:
     prerelease: true
   - name: 'betatest'
     prerelease: true
-tagFormat: '${version}' # without this, the tag is prefixed with a 'v'
+tagFormat: '${version}-${gitHead}' # without this, the tag is prefixed with a 'v'
 plugins:
   - "@semantic-release/commit-analyzer"
   - "@semantic-release/release-notes-generator"
