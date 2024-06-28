@@ -1,3 +1,16 @@
+# [1.0.0-betatest.4](https://github.com/BNLNPPS/esi-shell/compare/1.0.0-betatest.3...1.0.0-betatest.4) (2024-06-28)
+
+
+### Bug Fixes
+
+* 3 ([a8919a7](https://github.com/BNLNPPS/esi-shell/commit/a8919a717f47eb50f1f8857ec6148052a75da144))
+
+
+
+
+
+test version 1.0.0-betatest.4
+
 # [1.0.0-betatest.3](https://github.com/BNLNPPS/esi-shell/compare/1.0.0-betatest.2...1.0.0-betatest.3) (2024-06-28)
 
 
