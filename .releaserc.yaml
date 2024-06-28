@@ -13,7 +13,7 @@ plugins:
   - "@semantic-release/changelog"
   - path: "@semantic-release/exec"
     generateNotesCmd: "echo test version ${nextRelease.version}"
-    prepareCmd: 'echo "test version ${nextRelease.version}" > test_version.txt'
+    prepareCmd: 'echo "test version ${nextRelease.version} ${branch.name} ${commits.length}" > test_version.txt'
   - path: "@semantic-release/npm"
     npmPublish: false
   - path: "@semantic-release/git"
