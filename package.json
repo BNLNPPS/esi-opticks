@@ -1,6 +1,6 @@
 {
   "name": "esi-shell",
-  "version": "1.0.0-beta.15",
+  "version": "1.0.0-betatest.1",
   "description": "EIC Simulation Infrastructure",
   "repository": {
     "type": "git",
@@ -12,5 +12,8 @@
   "bugs": {
     "url": "https://github.com/BNLNPPS/esi-shell/issues"
   },
-  "homepage": "https://github.com/BNLNPPS/esi-shell#readme"
+  "homepage": "https://github.com/BNLNPPS/esi-shell#readme",
+  "devDependencies": {
+    "@semantic-release/exec": "^6.0.3"
+  }
 }
