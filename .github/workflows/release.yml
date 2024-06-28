@@ -19,6 +19,13 @@ jobs:
         with:
           fetch-depth: 0  # Important for Semantic Release to analyze all commits
 
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: "lts/*"
+
+      - run: npm install @semantic-release/exec -D
+
       - name: Create semantic release
         uses: cycjimmy/semantic-release-action@v4
         id: semantic
