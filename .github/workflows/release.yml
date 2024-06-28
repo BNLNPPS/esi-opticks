@@ -19,24 +19,11 @@ jobs:
         with:
           fetch-depth: 0  # Important for Semantic Release to analyze all commits
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: "lts/*"
-
-      - run: npm install @semantic-release/exec -D
-
       - name: Create semantic release
         uses: cycjimmy/semantic-release-action@v4
         id: semantic
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Checkout new release
-        if: steps.semantic.outputs.new_release_published == 'true'
-        uses: actions/checkout@v4
-        with:
-          ref: ${{ steps.semantic.outputs.new_release_git_tag }}
 
   cleanup:
     runs-on: ubuntu-latest
